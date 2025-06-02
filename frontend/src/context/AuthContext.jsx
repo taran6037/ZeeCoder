@@ -10,7 +10,7 @@ export const AuthProvider = ({ children }) => {
     if (!token) return;
 
     try {
-      const res = await fetch('https://localhost:5000/api/users/me', {
+      const res = await fetch('https://server-5mcy.onrender.com/api/users/me', {
         headers: { Authorization: `Bearer ${token}` },
       });
 
@@ -37,7 +37,7 @@ export const AuthProvider = ({ children }) => {
 
   const toggleBookmark = async (problemId) => {
     const token = localStorage.getItem('zcoder-user-token');
-    const res = await fetch(`https://localhost:5000/api/users/bookmark/${problemId}`, {
+    const res = await fetch(`https://server-5mcy.onrender.com/api/users/bookmark/${problemId}`, {
       method: 'POST',
       headers: {
         Authorization: `Bearer ${token}`,

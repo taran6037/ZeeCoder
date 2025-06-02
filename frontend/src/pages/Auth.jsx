@@ -11,7 +11,7 @@ const Auth = () => {
 
   const handleAuth = async () => {
     const endpoint = isLogin ? 'login' : 'signup';
-    const res = await fetch(`https://localhost:5000/api/users/${endpoint}`, {
+    const res = await fetch(`https://server-5mcy.onrender.com/api/users/${endpoint}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email, password }),

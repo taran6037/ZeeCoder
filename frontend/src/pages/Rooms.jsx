@@ -20,7 +20,7 @@ const Rooms = () => {
   useEffect(() => {
     if (!slug) return;
 
-    socketRef.current = new WebSocket('https://localhost:6000.com');
+    socketRef.current = new WebSocket('https://socket-dzk3.onrender.com');
 
     socketRef.current.onopen = () => {
       socketRef.current.send(JSON.stringify({ type: 'join', room: slug }));

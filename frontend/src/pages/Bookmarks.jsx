@@ -12,7 +12,7 @@ const Profile = () => {
       if (!user) return;
       try {
         const token = localStorage.getItem('zcoder-user-token');
-        const res = await fetch('https://localhost:5000/api/bookmarks', {
+        const res = await fetch('https://server-5mcy.onrender.com/api/bookmarks', {
           headers: { Authorization: `Bearer ${token}` },
         });
         const data = await res.json();
