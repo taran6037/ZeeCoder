@@ -59,11 +59,11 @@ Perfect for:
 
    ```bash
    # Clone with default name
-   git clone [https://github.com/sayamgrover1310/ZeeCoder.git](https://github.com/sayamgrover1310/ZeeCoder.git)
+   git clone [https://github.com/taran6037/ZeeCoder.git](https://github.com/taran6037/ZeeCoder.git)
    ```
    ```bash
    # Or clone with custom name
-   git clone [https://github.com/sayamgrover1310/ZeeCoder.git](https://github.com/sayamgrover1310/ZeeCoder.git) your-project-name
+   git clone [https://github.com/taran6037/ZeeCoder.git](https://github.com/taran6037/ZeeCoder.git) your-project-name
    ```
 
 2. **Navigate to Project Directory**
