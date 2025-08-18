@@ -6,9 +6,9 @@ const Home = () => {
   const { user } = useAuth();
   return (
     <div style={styles.container}>
-      <h1 style={styles.title}>Welcome to ZCoder</h1>
+      <h1 style={styles.title}>Welcome to ZeeCoder</h1>
       <p style={styles.subtitle}>
-        ZCoder is your collaborative platform to solve coding challenges, work with peers, and grow as a developer.
+        ZeeCoder is your collaborative platform to solve coding challenges, work with peers, and grow as a developer.
       </p>
 
       <div style={styles.featuresContainer}>
