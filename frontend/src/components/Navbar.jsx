@@ -15,7 +15,7 @@ const Navbar = () => {
  
   return (
     <nav style={styles.nav}>
-      <Link to="/" style={styles.logo}>ZCoder</Link>
+      <Link to="/" style={styles.logo}>ZeeCoder</Link>
       <div style={styles.right}>
         <Link style={styles.link} to="/problems">Problems</Link>
         <Link style={styles.link} to="/editor">Editor</Link>
