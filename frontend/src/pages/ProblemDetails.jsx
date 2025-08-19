@@ -11,7 +11,7 @@ const ProblemDetails = () => {
   useEffect(() => {
     const fetchProblem = async () => {
       try {
-        const res = await fetch(`https://server-5mcy.onrender.com/api/problems/${slug}`);
+        const res = await fetch(`https://zeecoder.onrender.com/api/problems/${slug}`);
         if (!res.ok) throw new Error('Problem not found');
         const data = await res.json();
         setProblem(data);
