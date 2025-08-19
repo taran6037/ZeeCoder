@@ -10,7 +10,7 @@ export const AuthProvider = ({ children }) => {
     if (!token) return;
 
     try {
-      const res = await fetch('https://server-5mcy.onrender.com/api/users/me', {
+      const res = await fetch('https://zeecoder.onrender.com/api/users/me', {
         headers: { Authorization: `Bearer ${token}` },
       });
 
