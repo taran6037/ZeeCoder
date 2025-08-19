@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Editor from "@monaco-editor/react";
 
 export default function EditorPage() {
-  const [code, setCode] = useState("print('Hello, ZCoder!')");
+  const [code, setCode] = useState("print('Hello, ZeeCoder!')");
   const [output, setOutput] = useState("");
   const [isRunning, setIsRunning] = useState(false);
 
@@ -32,7 +32,7 @@ export default function EditorPage() {
     <div style={styles.container}>
       <div style={styles.editorCard}>
         <div style={styles.header}>
-          <h2 style={styles.headerText}>ZCoder Editor</h2>
+          <h2 style={styles.headerText}>ZeeCoder Editor</h2>
           <button
             style={{
               ...styles.runButton,
