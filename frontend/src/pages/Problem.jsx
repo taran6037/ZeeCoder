@@ -8,7 +8,7 @@ const Problem = () => {
   const { toggleBookmark, isBookmarked } = useAuth();
 
   useEffect(() => {
-    fetch('https://server-5mcy.onrender.com/api/problems')
+    fetch('https://zeecoder.onrender.com/api/problems')
       .then(res => res.json())
       .then(data => setProblems(data))
       .catch(err => console.error('Failed to fetch problems', err));
