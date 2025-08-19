@@ -21,7 +21,7 @@ app.use('/api/bookmarks', require('./routes/bookmarks'));
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: 'https://zcoder-amber.vercel.app',
+    origin: 'https://zeecoder.vercel.app',
     methods: ['GET', 'POST']
   }
 });
