@@ -10,7 +10,7 @@ export default function EditorPage() {
     setIsRunning(true);
     setOutput("Running...");
 
-    const ws = new WebSocket("https://executor-q8ke.onrender.com/ws");
+    const ws = new WebSocket("https://exe-kioi.onrender.com/ws");
 
     ws.onopen = () => {
       ws.send(code);
